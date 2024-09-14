@@ -1,0 +1,44 @@
+{
+  "maincetegory": [
+    {
+      "id": "f031",
+      "name": "Rohit yadav",
+      "active": true
+    },
+    {
+      "id": "1efa",
+      "name": "male",
+      "active": true
+    },
+    {
+      "id": "61ee",
+      "name": "sonumonu",
+      "active": true
+    },
+    {
+      "id": "75ab",
+      "name": "shardha singh",
+      "active": true
+    },
+    {
+      "id": "f8ce",
+      "name": "sonu",
+      "active": true
+    },
+    {
+      "id": "9457",
+      "name": "Manish kumar",
+      "active": true
+    }
+  ],
+  "submaincetegory": [],
+  "brand": [],
+  "product": [],
+  "testimonial": [],
+  "users": [],
+  "cart": [],
+  "wishlist": [],
+  "newsletter": [],
+  "contactus": [],
+  "checkout": []
+}
