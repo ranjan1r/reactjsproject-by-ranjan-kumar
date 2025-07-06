@@ -5,7 +5,7 @@ export default function FromValidator(event) {
         case "name":
             if (value.length === 0)
                 return +" Field is Mendatory"
-            else if (value.length < 3 || value > 50)
+            else if (value.length < 1 || value > 30)
                 return  name  + "Length Must Be 3-50 Characters"
             else
                 return ""

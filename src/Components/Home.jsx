@@ -3,6 +3,7 @@ import Features from "./Partials/Features";
 import ProductContainer from "./Partials/ProductContainer";
 import Faqs from "./Partials/Faqs";
 import Testimonial from "./Partials/Testimonials";
+import WebbyBannerPage from "./Task/WebbyBannerPage";
 
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
@@ -65,6 +66,7 @@ export default function Home() {
                                             <div className="d-flex justify-content-center justify-content-md-end flex-shrink-0 mb-4">
                                                 <a className="btn btn-light rounded-pill py-3 px-4 px-md-5 me-2" href="#"><i class="fas fa-play-circle me-2"></i> Watch Video</a>
                                                 <a className="btn btn-dark rounded-pill py-3 px-4 px-md-5 ms-2" href="#">Learn More</a>
+
                                             </div>
                                         </div>
                                     </div>

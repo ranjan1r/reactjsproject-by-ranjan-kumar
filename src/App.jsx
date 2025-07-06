@@ -12,6 +12,9 @@ import AdminHome from "./Admin/AdminHome/AdminHome";
 import AdminMaincetegory from "./Admin/AdminMaincetegory/AdminMaincetegory";
 import AdminCreateMaincetegory from "./Admin/AdminMaincetegory/AdminCreateMaincetegory";
 import AdminUpdateMaincetegory from "./Admin/AdminMaincetegory/AdminUpdateMaincetegory";
+import ProductPage from "./Task/Productpages";
+// import WebbyBannerPage from "./Task/WebbyBannerPage"
+// Inside your <Routes>
 
 export default function App() {
     return (
@@ -25,6 +28,8 @@ export default function App() {
                     <Route path="/about" element={<About />} />
                     <Route path="/shop" element={<Shop />} />
                     <Route path="/contact" element={<ContactUs />} />
+                    <Route path="/ProductPage" element={<ProductPage />} />
+                    <Route path="/WebbyBannerPage" element={<WebbyBannerPage />} />
 
                     {/* <Admin Routes /> */}
                     <Route path="/admin" element={<AdminHome />} />
