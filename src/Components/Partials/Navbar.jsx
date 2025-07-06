@@ -69,7 +69,7 @@ export default function Navbar() {
                             </Link>
                             <div className="d-flex flex-column ms-3">
                                 <span>Call to Our Experts</span>
-                                <Link to="tel:7903201546" target="_blank" rel="noreferrer"><span className="text-dark">Free: 7903201546</span></Link>
+                                <Link to="tel:8292619849" target="_blank" rel="noreferrer"><span className="text-dark">Free: 8292619849</span></Link>
                             </div>
                             <div className="collapse navbar-collapse" id="navbarCollapse">
                                 <div className="navbar-nav mx-0 mx-lg-auto">

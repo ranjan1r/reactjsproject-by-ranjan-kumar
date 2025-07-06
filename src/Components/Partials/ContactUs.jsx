@@ -81,7 +81,7 @@ export default function ContactUs() {
                                             </div>
                                             <div>
                                                 <h4>Address</h4>
-                                                <p className="mb-0">123 Street New York.USA</p>
+                                                <p className="mb-0">124 Street New York.USA</p>
                                             </div>
                                         </div>
                                     </div>
