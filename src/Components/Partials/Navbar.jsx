@@ -4,6 +4,9 @@ import { Link } from "react-router-dom";
 export default function Navbar() {
     return (
         <>
+          {/* <div className="button-container"> */}
+            {/* <Link to="/ProductPage" className="btn-link">  Go to Product Page</Link> */}
+
             {/* <!-- Topbar Start --> */}
             <div className="container-fluid topbar px-0 px-lg-4 bg-light py-2 d-none d-lg-block">
                 <div className="container">
@@ -25,6 +28,8 @@ export default function Navbar() {
                                     <Link className="btn p-0 text-primary me-3" to="#" target="_blank" rel="noreferrer" ><i className="fab fa-twitter"></i></Link>
                                     <Link className="btn p-0 text-primary me-3" to="#" target="_blank" rel="noreferrer" ><i className="fab fa-instagram"></i></Link>
                                     <Link className="btn p-0 text-primary me-0" to="#" target="_blank" rel="noreferrer" ><i className="fab fa-linkedin-in"></i></Link>
+         
+       
                                 </div>
 
                             </div>
@@ -46,13 +51,14 @@ export default function Navbar() {
                             <span className="fa fa-bars"></span>
                         </button>
                         <div className="collapse navbar-collapse" id="navbarCollapse">
-                            <div className="navbar-nav mx-0 mx-lg-auto">
+                            <div className="navbar-nav mx-0 mx-lg-auto custom-navbar-size height=4rem">
                                 <Link to="/" className="nav-item nav-link active">Home</Link>
                                 <Link to="/about" className="nav-item nav-link">About</Link>
                                 <Link to="/shop" className="nav-item nav-link">Shop</Link>
                                 <Link to="/contactus" className="nav-item nav-link">Contact</Link>
                                 <Link to="/admin" className="nav-item nav-link">Admin</Link>
-
+                                <Link to="/ProductPage" className="nav-btn-link">Product</Link>
+   
 
                                 <div className="nav-btn px-6">
                                     <button className="btn-search btn btn-primary btn-md-square rounded-circle flex-shrink-0" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search"></i></button>
@@ -112,7 +118,7 @@ export default function Navbar() {
                     </div>
                 </div>
             </div>
-
+           {/* </div> */}
         </>
     )
 }
