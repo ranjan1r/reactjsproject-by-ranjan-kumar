@@ -3,8 +3,6 @@ import Features from "./Partials/Features";
 import ProductContainer from "./Partials/ProductContainer";
 import Faqs from "./Partials/Faqs";
 import Testimonial from "./Partials/Testimonials";
-import WebbyBannerPage from "./Task/WebbyBannerPage";
-
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
